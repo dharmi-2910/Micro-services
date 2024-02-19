@@ -1,0 +1,16 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: CONFIG-SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dharmi-2910/Micro-services
+          clone-on-start: true
+          username: dharmi-2910
+          password: Dharmi2910@
+
